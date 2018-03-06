@@ -151,4 +151,4 @@ Let's also update our `index.html` page to allow us to inspect each user:
   </form>
 {% endblock %}
 ```
-## But wait! There's more! [How do we login?!](https://github.com/ladydangerdame/CatCollectr/blob/master/README3point5.md)
+## But wait! There's more! [How do we login?!](https://github.com/ladydangerdame/CatCollectr/blob/master/README4.md)
