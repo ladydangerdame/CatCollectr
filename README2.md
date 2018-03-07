@@ -1,6 +1,6 @@
 # Django! Part 2!
 
-We have created an application that will display our cats that we've adopted/found/seen/collected (no judgements).  In this section we will break out our views into a detail page, a new Cat form, and a delete(/ᐠ｡▿｡ᐟ\!!)!
+We have created an application that will display our cats that we've adopted/found/seen/collected (no judgements).  In this section we will break out our views into a detail page, a new Cat form, and a delete(/ᐠ｡▿｡ᐟ\\!!)!
 
 
 # Read
