@@ -233,7 +233,7 @@
 	<html>
 	  <head>
 	    <title>CatCollectr</title>
-	    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" / />
+	    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 	  </head>
 	...
 	```
@@ -307,7 +307,7 @@ python3 manage.py migrate
 ```
 Separate steps let you review the migration before you actually run `migrate`
 
-3.  Lets jump into the `Django Interactive Shell` to play with the database for our Treasures!
+3.  Lets jump into the `Django Interactive Shell` to play with the database for our Cats!
 
 	In your terminal:
 
