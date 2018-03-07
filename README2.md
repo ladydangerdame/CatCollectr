@@ -47,7 +47,7 @@ The pattern of creating a new url in `urls.py`, a new view function in `views.py
 	<html>
 	  <head>
 	    <title>CatCollectr</title>
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css">
 	    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 
 	  </head>
