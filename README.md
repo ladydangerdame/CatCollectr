@@ -9,7 +9,7 @@
 	This will create a folder labeled CatCollectr as well as a few support files and a folder within with the same name. Spend some time familiarizing yourself with the file structure.
 	- settings.py will hold the settings for our application
 	- urls.py will hold all of the routing for our application
-	- manaage.py will house common functions we'll perform on our app (server, migrations, etc.)
+	- manage.py will house common functions we'll perform on our app (server, migrations, etc.)
 
 2.  To see a barebones website automatically created for us run the following command:
 
