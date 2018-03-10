@@ -168,7 +168,7 @@
 
 	cats = [
 	    Cat('Lolo', 'tortoise shell', 'diluted tortoise shell', 0),
-	    Cat("Sachi", 'tortoise shell', 'diluted tortoise shell', 0),
+	    Cat('Sachi', 'tortoise shell', 'diluted tortoise shell', 0),
 	    Cat('Raven', 'black tripod', '3 legged cat', 4)
 	]
 	```
