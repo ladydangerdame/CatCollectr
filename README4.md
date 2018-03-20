@@ -160,7 +160,7 @@ Then create the template `profile.html`:
 
 Lets add some fun to our site! Lets allow users to like cats!
 
-We will use the URL -> View -> Template pattern to implement this addition, but with an extra step of implementing some AJAX (Hello, Darkness, my old friend) and include a like field to our Treasures model.
+We will use the URL -> View -> Template pattern to implement this addition, but with an extra step of implementing some AJAX (Hello, Darkness, my old friend) and include a like field to our Cat model.
 
 Lets start with the model. Update our `models.py` to include a likes field:
 
