@@ -103,7 +103,7 @@ We're beginning to see repeated code in our html templates so it makes sense to 
 
 	The `block content` and `endblock` statements are the placeholders for where our 'child' html will load into our base.html template.
 
-2.  In `index.html` we will tell the templating language to send our html to `base.html` with a single line added to the top of the page.  We will also wrap our pertinent Treasure iterator in the `block content` and `endblock` template tags to designate what gets loaded into our `base.html` dynamically.
+2.  In `index.html` we will tell the templating language to send our html to `base.html` with a single line added to the top of the page.  We will also wrap our pertinent Cat iterator in the `block content` and `endblock` template tags to designate what gets loaded into our `base.html` dynamically.
 
 	```html
 	<!-- main_app/templates/index.html -->
@@ -160,9 +160,9 @@ Let us add the ability to create Cats in our application.  We will now study the
 
 	...
 	def post_cat(request):
-	    form = TreasureForm(request.POST)
+	    form = CatForm(request.POST)
 	    if form.is_valid():
-	        treasure = Treasure(
+	        cat = Cat(
 	            name=form.cleaned_data['name'],
 	            breed=form.cleaned_data['breed'],
 	            description=form.cleaned_data['description'],
