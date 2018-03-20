@@ -24,7 +24,9 @@ Lets add the `login_view` function in `views.py`:
 ...
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
-from .forms import TreasureForm, LoginForm
+from .forms import Cat
+
+Form, LoginForm
 ...
 def login_view(request):
     if request.method == 'POST':
